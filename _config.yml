@@ -1,0 +1,44 @@
+title: "Poodle House"
+description: "Musings on love, family, community, spirituality, freedom, the web, open source, the environment, animal rights, and more"
+# url: http://poodle.house
+
+owner:
+  name: "Gareth Aye"
+  avatar: "bio-photo.jpg"
+  bio: "Gareth is a software developer at Mozilla Firefox. He lives in Knoxville, TN with his wife and puppies."
+  email: "gareth@alumni.middlebury.edu"
+  twitter: "garethaye"
+  github: "gaye"
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Posts
+    url: /posts/
+  - title: About
+    url: /about/
+
+timezone:    America/New_York
+future:      true
+highlighter: pygments
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: true
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 2
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
