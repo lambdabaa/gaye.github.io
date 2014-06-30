@@ -24,9 +24,9 @@ I am also the most active peer for the firefox os calendar app. I try to respond
 One time (earlier this year) someone sent me a patch and I added it to my queue of things to do. A day later, their manager emailed me and my manager, urging me to review the patch. The request was totally reasonable if you take the perspective that I am a Mozilla employee and a manager at Mozilla was directing my work toward the end that he thought was most important for the organization. However, bumping that patch to the top of my review queue because someone's manager compelled me to is not the open-source way and undermines the contributors to my project from outside of Mozilla who don't have the power to write compelling emails to my manager and me. I obliged the manager's request, but not without feeling conflicted.
 <br /><br />
 Perhaps the strangest situations arise when people who wouldn't ordinarily do open-source but who are driven by career and financial aspirations are smashed together with open-source enthusiasts. I feel that I collaborate excellently with developers at Mozilla who are open-source developers in spirit and philosophy. I struggle when others' values and processes conflict with mine and the larger open-source software movement.
-<br /><br />
+
 ### Intrinsic versus extrinsic motivation
 
 I think what it comes down to, at least for me, is that Mozilla is almost always a great place to work for intrinsically motivated individuals. Open-source is largely about intrinsic motivation whereas I think that many more traditional software operations are driven by extrinsic motivation. Work activities and collaborations at Mozilla tend to revolve around developers' areas of interest. At more traditional software companies, work activities tend to revolve strictly around financial goals.
-
+<br /><br />
 Mozilla does have financial goals but only insofar as they support continuing our progress towards our philosophical, non-financial ones (web literacy, privacy, security, transparency, availability, etc). My aesthetic is to trust developers at Mozilla to know how best to serve those normative goals. The purpose of Mozilla's managerial structure should, in my mind, be to find the greatest heroes of the open web and then step back and support them in doing the great things they're already doing.
