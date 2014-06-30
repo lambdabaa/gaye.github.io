@@ -25,4 +25,8 @@ One time (earlier this year) someone sent me a patch and I added it to my queue 
 <br /><br />
 Perhaps the strangest situations arise when people who wouldn't ordinarily do open-source but who are driven by career and financial aspirations are smashed together with open-source enthusiasts. I feel that I collaborate excellently with developers at Mozilla who are open-source developers in spirit and philosophy. I struggle when others' values and processes conflict with mine and the larger open-source software movement.
 <br /><br />
-It is tricky, I think, to have a business which develops open-source software that embodies the values of the open-source movement.
+### Intrinsic versus extrinsic motivation
+
+I think what it comes down to, at least for me, is that Mozilla is almost always a great place to work for intrinsically motivated individuals. Open-source is largely about intrinsic motivation whereas I think that many more traditional software operations are driven by extrinsic motivation. Work activities and collaborations at Mozilla tend to revolve around developers' areas of interest. At more traditional software companies, work activities tend to revolve strictly around financial goals.
+
+Mozilla does have financial goals but only insofar as they support continuing our progress towards our philosophical, non-financial ones (web literacy, privacy, security, transparency, availability, etc). My aesthetic is to trust developers at Mozilla to know how best to serve those normative goals. The purpose of Mozilla's managerial structure should, in my mind, be to find the greatest heroes of the open web and then step back and support them in doing the great things they're already doing.
