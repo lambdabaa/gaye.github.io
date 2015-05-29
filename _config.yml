@@ -1,13 +1,12 @@
-title: "Poodle House"
-description: "Musings on love, family, community, spirituality, freedom, the web, open source, the environment, animal rights, and more"
-# url: http://poodle.house
+title: "Gareth's Blog"
+description: "Gareth's ideas in word form... mostly related to software development."
 
 owner:
   name: "Gareth Aye"
   avatar: "bio-photo.jpg"
-  bio: "Gareth is a software developer at Mozilla Firefox. He lives in Knoxville, TN with his wife and puppies."
-  email: "gareth@alumni.middlebury.edu"
-  twitter: "garethaye"
+  bio: "Gareth is a software developer at Mozilla Firefox. He lives in Knoxville, TN with his wife, baby, and puppies."
+  email: "gareth.aye@gmail.com"
+  twitter: "garethforsomet"
   github: "gaye"
 
 # Links to include in top navigation
