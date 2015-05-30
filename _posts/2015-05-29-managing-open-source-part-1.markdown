@@ -110,7 +110,7 @@ and patch jsmarionette
 taskcluster instead of ftp when our ftp servers were dying and all the
 trees were closed
 + spent my entire day working to figure out why our tree was busted on
-multiple ocassions
+multiple occasions
 
 just to name a few. None of that work is related to the goals I'm
 pursuing on the record and I don't know what (if any) bearing it will
