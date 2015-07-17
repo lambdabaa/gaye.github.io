@@ -40,12 +40,11 @@ To see changes you make reflected in the browser, you can just
 hit refresh. To deploy your changes, just stop the webserver, replace
 the contents of the directory it's serving with your updated code, and
 then start the web server again. It's super simple and absolutely
-satisfies our values for accessibility and approachability. If this
-workflow for developing and deploying satisfied all of Firefox OS'
-unique constraints, we would adopt it in a heartbeat.
+satisfies our values for accessibility and approachability. For some
+Firefox OS development scenarios, this works just fine.
 <br /><br />
-There are a few reasons why this doesn't work for Firefox OS though.
-The ones that come to mind first are:
+There are other cases for development, and certainly for deployment,
+where a build step is necessary. The ones that come to mind first are:
 
 1. It's important for us to have many different javascript files so that
    we can cleanly separate our code into modules by functional concerns
@@ -102,17 +101,6 @@ OS and enable the swappable module mixing and matching web developers love.
 
 ### Testing?
 
-Building an open-source, web operating system is a tremendous and ambitious
-endeavor that requires a lot of input from a lot of people. When one
-person is writing a single module, it might not be too difficult to
-identify how changes to the code impact existing functionality. When
-600 people (hopefully many more in the future) people are writing and
-connecting hundreds of modules that are going to be deployed in 90
-different languages across multiple form factors, the equation
-becomes a bit more nuanced. There's a real need in open-source projects
-of Firefox OS' scope to write tests that persist developers' expectations
-for how the software we write should work in code.
-<br /><br />
 In Firefox OS, we're primarily focused on two kinds of tests: unit and
 ui tests. We've adopted and contributed to mocha, one of the most widely
 used javascript testing frameworks, for our testing needs. Most web
@@ -137,9 +125,11 @@ we're looking into a project called
 [exhibition](https://github.com/lightsofapollo/exhibition). The dream is
 that you'll be able to do `exhibition lint some.js` or `exhibition lint
 other.js` or even `exhibition test -r apps/calendar/test/marionette`.
-Persisting our knowledge of how we run and interact with the different
-test suites has a lot of potential to lower the barrier to gaia
-development for contributors.
+Exhibition will run your task in an isolated environment with all of the
+appropriate (previously global) dependencies. It will also be able to
+infer, from in-tree configuration, how each task gets run. Persisting our
+knowledge of how we run and interact with the different test suites has a
+lot of potential to lower the barrier to gaia development for contributors.
 
 ### In summation: or what it looks like to build and test in space
 
