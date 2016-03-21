@@ -4,7 +4,7 @@ description: "Gareth's ideas in word form... mostly related to software developm
 owner:
   name: "Gareth Aye"
   avatar: "bio-photo.jpg"
-  bio: "Gareth is the engineering lead for Firefox OS automation at Mozilla. He lives in Portland, OR with his loving family."
+  bio: "Gareth is the founder of MathLeap, an online assessments platform for middle & high school math classes. Before starting MathLeap, Gareth led an engineering team at Mozilla Firefox. He lives in Portland, OR with his loving family."
   email: "gareth.aye@gmail.com"
   twitter: "garethforsomet"
   github: "gaye"
@@ -14,6 +14,8 @@ owner:
 links:
   - title: Posts
     url: /posts/
+  - title: MathLeap
+    url: https://mathleap.org/
   - title: About
     url: /about/
 
